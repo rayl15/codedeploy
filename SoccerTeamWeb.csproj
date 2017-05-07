@@ -32,6 +32,5 @@
       <Copy SourceFiles="$(RootDir)$(ReleaseFolder)\temp\deletewebsite.bat" DestinationFolder="$(RootDir)$(ReleaseFolder)\Scripts"/>
       <Copy SourceFiles="$(RootDir)$(ReleaseFolder)\temp\deletewebsite.ps1" DestinationFolder="$(RootDir)$(ReleaseFolder)\Scripts"/>
       <Exec Command="rd &quot;$(RootDir)$(ReleaseFolder)\temp&quot; /s /q"/>
-      <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
    </Target>
 </Project>
